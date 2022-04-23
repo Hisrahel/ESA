@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sect{
+    background: #8E0025;
+    height: 50vh;
+}
+body{
+    background: #6D98AB;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foot{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #A8B1B8;
+}
+.head{
+    color: white;
+    padding-top: 180px;
+}
+.nav-link{
+    color: black;
+    margin-left: 50px;
+    font-size: 12px;
+}
+.nav-link:hover{
+    color: black;
+    border-bottom: 1px solid #000;
+}
+.active{
+    border-bottom: 1px solid #000;
+}
+p{
+    font-size: 14px;
+}
+.sect1{
+    background: url("images/sky_1522153285.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 50vh;
+}
+.sector{
+    background: url("images/Air-Header-Blue.png") white;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60vh;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+.header{
+    color: #CCFFFF;
+    padding-top: 180px;
+}
+.heads{
+    color: #92724B;
+}
+.cont{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom : 10px;
+}
+@media (max-width: 576px) {
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .sect{
+        background: #8E0025;
+        height: 30vh;
+    }
+    .head{
+        color: white;
+        padding-top: 100px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .header{
+        color: #CCFFFF;
+        padding-top: 100px;
+        font-size: 15px;
+        text-align: center;
+    }
+    p{
+        font-size: 11px;
+    }
+    .sect1{
+        background: url("images/sky_1522153285.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        height: 30vh;
+    }
+    .sector{
+        background: url("images/Air-Header-Blue.png") white;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 60vh;
+        border-right: 5px solid white;
+        border-left: 5px solid white;
+    }
+    .heads{
+        color: #92724B;
+        font-size: 15px;
+        text-align: center;
+    }
+    .cont{
+        text-align: center !important;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+@media (max-width: 1024px) {
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .nav-link{
+        font-size: 17px;
+    }
+    .sect{
+        background: #8E0025;
+        height: 25vh;
+    }
+    .head{
+        color: white;
+        padding-top: 150px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .header{
+        color: #CCFFFF;
+        padding-top: 150px;
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 17px;
+    }
+    .sect1{
+        background: url("images/sky_1522153285.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        height: 25vh;
+    }
+    .sector{
+        background: url("images/Air-Header-Blue.png") white;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 35vh;
+        border-right: 5px solid white;
+        border-left: 5px solid white;
+    }
+    .heads{
+        color: #92724B;
+        font-size: 20px;
+        text-align: center;
+    }
+    .cont{
+        text-align: center !important;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+@media (max-width: 768px) {
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .nav-link{
+        font-size: 15px;
+    }
+    .sect{
+        background: #8E0025;
+        height: 30vh;
+    }
+    .head{
+        color: white;
+        padding-top: 100px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .header{
+        color: #CCFFFF;
+        padding-top: 100px;
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 15px;
+    }
+    .sect1{
+        background: url("images/sky_1522153285.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        height: 30vh;
+    }
+    .sector{
+        background: url("images/Air-Header-Blue.png") white;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 60vh;
+        border-right: 5px solid white;
+        border-left: 5px solid white;
+    }
+    .heads{
+        color: #92724B;
+        font-size: 20px;
+        text-align: center;
+    }
+    .cont{
+        text-align: center !important;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+}
+
